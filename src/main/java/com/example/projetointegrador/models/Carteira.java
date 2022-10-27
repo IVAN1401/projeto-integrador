@@ -13,10 +13,10 @@ import java.util.Date;
 @AllArgsConstructor
 @Builder
 @Table(name = "carteira")
-@Column
-public class Carteira<strategy> {
+
+public class Carteira {
     @Id
-    @GeneratedValue = (strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private  Long id;
     @Column(name = "name")
@@ -27,5 +27,4 @@ public class Carteira<strategy> {
     private Date dataInicioInvestimento;
     @Column(name = "dataTerminoInvestimento")
     private Date dataTerminoInvestimento;
-
-}
+    }

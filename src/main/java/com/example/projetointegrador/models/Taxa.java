@@ -5,12 +5,19 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
-public class Taxa {
-    private String nome;
-    private Double porcentagem;
+import javax.persistence.*;
 
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Data
+@Table(name = "taxa" )
+public class Taxa {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "nome")
+    private String nome;
+    @Column(name = "porcentagem")
+    private Double porcentagem;
 }
+

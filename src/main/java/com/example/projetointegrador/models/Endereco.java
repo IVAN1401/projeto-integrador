@@ -5,15 +5,21 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.print.DocFlavor;
+import javax.persistence.*;
 
-@Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
-
+@Data
+@Entity
+@Table(name ="endereco" )
 public class Endereco {
-    private String logadouro;
-    private String numerocasa;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "logradouro")
+    private String logradouro;
+    @Column(name = "numeroCasa")
+    private String numeroCasa;
+    @Column(name = "referencia")
     private String referencia;
 }
