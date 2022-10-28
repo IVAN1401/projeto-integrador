@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15da7517-2498-4884-8109-4c8612c0e661" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/dto/CarteiraDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/dto/DocumentoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/dto/EnderecoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/dto/PessoaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/dto/TaxaDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controlles/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controlles/PessoaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/dto/CarteiraDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/dto/CarteiraDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Carteira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Carteira.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Documento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Documento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Endereco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Taxa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Taxa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,30 +59,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Sindy Rocha/IdeaProjects/desenvolvimento/projeto-integrador",
-    "show.run.dashboard.notification": "false",
-    "spring.configuration.checksum": "8ab36308d54637628f2354cdde054898"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
   <component name="RunManager" selected="Spring Boot.ProjetoIntegradorApplication (1)">
     <configuration name="ProjetoIntegradorApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="projeto-integrador" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.projetointegrador.ProjetoIntegradorApplication" />
+      <module name="Projeto-integrador" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.projetointegrador.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.projetointegrador.ProjetoIntegradorApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjetoIntegradorApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Projeto-integrador" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.projetointegrador.ProjetoIntegradorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,6 +117,9 @@
       <workItem from="1666830104090" duration="3933000" />
       <workItem from="1666884265928" duration="5219000" />
       <workItem from="1666906099784" duration="2789000" />
+      <workItem from="1666911432331" duration="4867000" />
+      <workItem from="1666919561203" duration="372000" />
+      <workItem from="1666919965080" duration="484000" />
     </task>
     <servers />
   </component>
@@ -133,5 +136,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controlles/PessoaController.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

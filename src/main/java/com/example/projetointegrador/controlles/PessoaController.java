@@ -1,4 +1,4 @@
-package controlles;
+package com.example.projetointegrador.controlles;
 
 import com.example.projetointegrador.dto.PessoaDTO;
 import org.springframework.http.ResponseEntity;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin
 
 public class PessoaController {
-    @PostMapping(value = "salvarPessoa")
+    @PostMapping(value = "/salvarPessoa")
     public ResponseEntity<Object>salvarPessoa(@RequestBody PessoaDTO pessoaDTO){
         System.out.println(pessoaDTO);
         return null;
     }
-        }
+}
