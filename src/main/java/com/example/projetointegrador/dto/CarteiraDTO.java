@@ -9,7 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-.***********************************************************************************************public class CarteiraDTO {
+public class CarteiraDTO {
     private String cpf;
     private String cnpj;
     private String identidade;
