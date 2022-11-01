@@ -17,7 +17,7 @@ import javax.persistence.*;
 public class Documento {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column (name = "id_documento")
+    @Column(name = "id_documento")
     private Long id;
     @Column(name = "cpf")
     private String cpf;
@@ -25,4 +25,5 @@ public class Documento {
     private String cnpj;
     @Column(name = "identidade")
     private String identidade;
+
 }
