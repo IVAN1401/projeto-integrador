@@ -29,7 +29,7 @@ public class PessoaController {
        List<Pessoa>  response = pessoaServiceImp.listar();
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
-        @GetMapping(value = "/alterarPessoa")
+        @PutMapping(value = "/alterarPessoa")
         public ResponseEntity<Object> alterarPessoa (@RequestBody Pessoa pessoa){
             Pessoa response = pessoaServiceImp.editar(pessoa);
             return ResponseEntity.status(HttpStatus.CREATED).body(response);
