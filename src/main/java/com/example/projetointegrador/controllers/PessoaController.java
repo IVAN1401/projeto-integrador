@@ -33,5 +33,10 @@ public class PessoaController {
         public ResponseEntity<Object> alterarPessoa (@RequestBody Pessoa pessoa){
             Pessoa response = pessoaServiceImp.editar(pessoa);
             return ResponseEntity.status(HttpStatus.CREATED).body(response);
+
         }
+        @DeleteMapping (value="/deletarPessoa")
+        public ResponseEntity<Object> deletarPessoa (Long id_pessoa){
+            pessoaServiceImp.deletar(id_pessoa);
+            return ResponseEntity.status(HttpStatus.CREATED).build();}
     }

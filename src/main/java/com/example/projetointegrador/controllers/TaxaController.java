@@ -3,6 +3,7 @@ package com.example.projetointegrador.controllers;
 import com.example.projetointegrador.models.Pessoa;
 import com.example.projetointegrador.models.Taxa;
 import com.example.projetointegrador.services.PessoaServiceImpl;
+import com.example.projetointegrador.services.TaxaServiceImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,10 +15,11 @@ import java.util.List;
 @CrossOrigin
 public class TaxaController {
 
-    final TaxaServiceImpl taxaService;
+    final TaxaServiceImpl taxaServiceImpl;
 
     public CarteiraController(PessoaServiceImpl pessoaService) {
-        this.TaxaServiceImpl= taxaService;
+        TaxaServiceImpl ;
+        this.taxaServiceImpl= TaxaServiceImpl;
     }
     @PostMapping(value= "/salvarCarteira")
     public ResponseEntity<Object> salvarPessoa(@RequestBody Pessoa pessoa) {
