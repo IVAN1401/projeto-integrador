@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15da7517-2498-4884-8109-4c8612c0e661" name="Changes" comment="arquivocarteiradto">
+    <list default="true" id="15da7517-2498-4884-8109-4c8612c0e661" name="Changes" comment="atualizaçaodepasta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/PessoaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,29 +47,32 @@
     </option>
   </component>
   <component name="ProjectId" id="2G0bnhtPMy1psUEkeqr5rKhPYjV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
   <component name="RunManager" selected="Spring Boot.ProjetoIntegradorApplication (1)">
     <configuration name="ProjetoIntegradorApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="projeto-integrador" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.projetointegrador.ProjetoIntegradorApplication" />
+      <module name="Projeto-integrador" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.projetointegrador.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.projetointegrador.ProjetoIntegradorApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,11 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.ProjetoIntegradorApplication" />
-      <item itemvalue="Spring Boot.ProjetoIntegradorApplication (2)" />
-      <item itemvalue="Spring Boot.ProjetoIntegradorApplication (1)" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ProjetoIntegradorApplication (1)" />
@@ -114,7 +113,32 @@
       <workItem from="1666906099784" duration="2789000" />
       <workItem from="1666911432331" duration="4867000" />
       <workItem from="1666919561203" duration="372000" />
-      <workItem from="1666919965080" duration="484000" />
+      <workItem from="1666919965080" duration="1085000" />
+      <workItem from="1667339742909" duration="2319000" />
+      <workItem from="1667342093796" duration="972000" />
+      <workItem from="1667343084022" duration="354000" />
+      <workItem from="1667343447536" duration="7704000" />
+    </task>
+    <task id="LOCAL-00001" summary="projeto-integrador">
+      <created>1667340821478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667340821478</updated>
+    </task>
+    <task id="LOCAL-00002" summary="projeto-integrador">
+      <created>1667341191381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667341191381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="projeto-integrador">
+      <created>1667341775450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667341775450</updated>
     </task>
     <servers />
   </component>
@@ -133,18 +157,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arquivocarteiradto" />
-    <option name="LAST_COMMIT_MESSAGE" value="arquivocarteiradto" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controlles/PessoaController.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="projeto-integrador" />
+    <MESSAGE value="atualizaçaodepasta" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualizaçaodepasta" />
   </component>
 </project>
