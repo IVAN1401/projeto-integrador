@@ -16,7 +16,7 @@ import javax.persistence.*;
 public class Endereco {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column (name = "id_endereco")
+    @Column(name = "id_endereco")
     private Long id;
     @Column(name = "logradouro")
     private String logradouro;

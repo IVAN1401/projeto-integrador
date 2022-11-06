@@ -4,27 +4,30 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import net.bytebuddy.asm.Advice;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.Date;
 @Entity
-@Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
+@Data
 @Table(name = "carteira")
 
 public class Carteira {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_carteira")
-    private  Long id;
-    @Column(name = "name")
+    private Long id;
+    @Column(name = "nome")
     private String nome;
-    @Column(name = "saldoAtual")
-    private Double saldoAtual;
+    @Column(name = "saldo")
+    private Double saldo;
     @Column(name = "dataInicioInvestimento")
-    private Date dataInicioInvestimento;
+    private LocalDate dataInicioInvestimento;
     @Column(name = "dataTerminoInvestimento")
-    private Date dataTerminoInvestimento;
-    }
+    private LocalDate dataTerminoInvestimento;
+
+}

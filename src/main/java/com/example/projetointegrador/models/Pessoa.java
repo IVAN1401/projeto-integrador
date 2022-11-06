@@ -19,22 +19,16 @@ public class Pessoa {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_pessoa")
     private Long id;
-
     @Column(name = "nome")
     private String nome;
-
     @Column(name = "genero")
     private String genero;
-
     @Column(name = "idade")
     private Integer idade;
-
     @Column(name = "rendimentoMensal")
     private Double rendimentoMensal;
-
     @Column(name = "estadoCivil")
     private String estadoCivil;
-
     @Column(name = "dependentes")
     private String dependentes;
 
@@ -46,8 +40,8 @@ public class Pessoa {
 
     @ManyToOne(cascade = {CascadeType.MERGE,CascadeType.DETACH,CascadeType.REFRESH,CascadeType.PERSIST}, fetch = FetchType.LAZY)
     @JoinTable(name = "pessoa_endereco",
-            joinColumns= @JoinColumn(name = "id_endereco"),
-            inverseJoinColumns = @JoinColumn(name = "id_pessoa"))
+        joinColumns= @JoinColumn(name = "id_endereco"),
+        inverseJoinColumns = @JoinColumn(name = "id_pessoa"))
     private Endereco endereco;
 
     @ManyToOne(cascade = {CascadeType.MERGE,CascadeType.DETACH,CascadeType.REFRESH,CascadeType.PERSIST}, fetch = FetchType.LAZY)
@@ -57,5 +51,3 @@ public class Pessoa {
     private Carteira carteira;
 
 }
-
-
