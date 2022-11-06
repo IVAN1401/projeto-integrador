@@ -11,4 +11,6 @@ public interface PessoaService {
     Pessoa editar (Pessoa pessoa);
 
     Pessoa salvar (Pessoa pessoa);
+
+    void deletar (Long id_pessoa);
 }
