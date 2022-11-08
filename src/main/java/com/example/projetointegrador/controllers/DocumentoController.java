@@ -21,18 +21,23 @@ public class DocumentoController {
     }
 
     @PostMapping(value= "/salvarDocumento")
-    public ResponseEntity<Object> salvarPessoa(@RequestBody Documento documento) {
-        Pessoa response = documentoServiceImpl.;
+    public ResponseEntity<Object> salvarDocumento(@RequestBody Documento documento) {
+        Documento response = documentoServiceImpl.salvar(documento);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
     @GetMapping(value = "/buscarDocumento")
-    public ResponseEntity<Object> buscarDocumento(@RequestBody Documento documento) {
-        List<Pessoa> response = DocumentoServiceImpl.listar();
+    public ResponseEntity<Object> buscarDocumento() {
+        List<Documento>  response = documentoServiceImpl.listar();
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
-    @PutMapping(value = "/alterardocumento")
+    @PutMapping(value = "/alterarDocumento")
     public ResponseEntity<Object> alterarDocumento (@RequestBody Documento documento){
-        Pessoa response = documentoServiceImpl.editar(documento);
+        Documento response = documentoServiceImpl.editar(documento);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
+
     }
+    @DeleteMapping (value="/deletarDocumento")
+    public ResponseEntity<Object> deletarDocumento (Long id_documento){
+        documentoServiceImpl.deletar(id_documento);
+        return ResponseEntity.status(HttpStatus.CREATED).build();}
 }

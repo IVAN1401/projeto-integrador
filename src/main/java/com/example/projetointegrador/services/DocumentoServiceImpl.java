@@ -2,21 +2,17 @@ package com.example.projetointegrador.services;
 
 import com.example.projetointegrador.models.Documento;
 import com.example.projetointegrador.models.Pessoa;
+import com.example.projetointegrador.repositories.DocumentoRepository;
 import com.example.projetointegrador.repositories.PessoaRepository;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
-public class DocumentoServiceImpl {
-    public static List<Documento> listar() {
-    }
-
-    @Service
+        @Service
     public class DocumentoServiceImpl implements DocumentoService {
 
-        final documentoRepository documentoRepository;
+        final DocumentoRepository documentoRepository;
 
-        public DocumentoServiceImpl(documentoRepository documentoRepository) {
+        public DocumentoServiceImpl(DocumentoRepository documentoRepository) {
             this.documentoRepository = documentoRepository;
         }
 
@@ -37,7 +33,7 @@ public class DocumentoServiceImpl {
         }
 
         @Override
-        public void deletar (Long id_documento){
+        public void deletar(Long id_documento) {
             documentoRepository.deleteById(id_documento);
         }
     }

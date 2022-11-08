@@ -21,19 +21,27 @@ public class CarteiraController {
     }
 
 
-    @PostMapping(value= "/salvarCarteira")
+    @PostMapping(value = "/salvarCarteira")
     public ResponseEntity<Object> salvarPessoa(@RequestBody Carteira carteira) {
         Carteira response = carteiraServiceImpl.salvar(carteira);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
+
     @GetMapping(value = "/buscarCarteira")
-    public ResponseEntity<Object> buscarCarteira(@RequestBody Carteira carteira) {
-        List<Carteira> response = carteiraServiceImpl.listar(carteira);
+    public ResponseEntity<Object> buscarCarteira() {
+        List<Carteira> response = carteiraServiceImpl.listar();
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
+
     @PutMapping(value = "/alterarCarteira")
-    public ResponseEntity<Object> alterarcarteira (@RequestBody Carteira carteira){
+    public ResponseEntity<Object> alterarcarteira(@RequestBody Carteira carteira) {
         Carteira response = carteiraServiceImpl.editar(carteira);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
+    }
+
+    @DeleteMapping(value = "deleteCarteira")
+    public ResponseEntity<Object> deletarCarteira(Long id_carteira) {
+        carteiraServiceImpl.deletar(id_carteira);
+        return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 }

@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-public class EnderecoController {
     @RestController
     @RequestMapping(value = "/api")
     @CrossOrigin
@@ -20,23 +19,30 @@ public class EnderecoController {
         final EnderecoServiceImpl enderecoServiceImpl;
 
         public EnderecoController(EnderecoServiceImpl enderecoService) {
-            EnderecoServiceImpl ;
-            this.enderecoServiceImpl= TaxaServiceImpl;
+            this.enderecoServiceImpl = enderecoService;
         }
-        @PostMapping(value= "/salvarEndereco")
+
+        @PostMapping(value = "/salvarEndereco")
         public ResponseEntity<Object> salvarEndereco(@RequestBody Endereco endereco) {
-            Endereco response = EnderecoServiceImpl.salvar();
+            Endereco response = enderecoServiceImpl.salvar(endereco);
             return ResponseEntity.status(HttpStatus.CREATED).body(response);
         }
+
         @GetMapping(value = "/buscarEndereco")
         public ResponseEntity<Object> buscarEndereco(@RequestBody Endereco endereco) {
-            List<Pessoa> response = TaxaServiceImpl.listar();
+            List<Endereco> response = enderecoServiceImpl.listar();
             return ResponseEntity.status(HttpStatus.CREATED).body(response);
         }
-        @PutMapping(value = "/alterarTaxa")
-        public ResponseEntity<Object> alterarPessoa (@RequestBody Pessoa pessoa){
-            Pessoa response = TaxaServiceImpl.editar(Pessoa);
+
+        @PutMapping(value = "/alterarEndereco")
+        public ResponseEntity<Object> alterarPessoa(@RequestBody Endereco endereco) {
+            Endereco response = enderecoServiceImpl.editar(endereco);
             return ResponseEntity.status(HttpStatus.CREATED).body(response);
+        }
+
+        @DeleteMapping(value = "/deletarEndereco")
+        public ResponseEntity<Object> deletarEndereco(Long id_endereco) {
+            enderecoServiceImpl.deletar(id_endereco);
+            return ResponseEntity.status(HttpStatus.CREATED).build();
         }
     }
-}

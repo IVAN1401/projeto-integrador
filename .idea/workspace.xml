@@ -8,19 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/CarteiraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/CarteiraController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/DocumentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/DocumentoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/PessoaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/dto/PessoaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/dto/PessoaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/models/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/repositories/CarteiraRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/repositories/CarteiraRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/repositories/DocumentoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/repositories/DocumentoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/repositories/EnderecoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/repositories/EnderecoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/repositories/TaxaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/repositories/TaxaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/CarteiraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/CarteiraService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/EnderecoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/EnderecoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/TaxaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/TaxaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/CarteiraServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/CarteiraServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/DocumentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/DocumentoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/DocumentoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/DocumentoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/PessoaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/PessoaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/PessoaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/EnderecoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/EnderecoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/TaxaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/TaxaServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +131,8 @@
       <workItem from="1667343084022" duration="354000" />
       <workItem from="1667343447536" duration="7807000" />
       <workItem from="1667516141493" duration="8348000" />
-      <workItem from="1667600224311" duration="7754000" />
+      <workItem from="1667600224311" duration="10025000" />
+      <workItem from="1667944698657" duration="6288000" />
     </task>
     <task id="LOCAL-00001" summary="projeto-integrador">
       <created>1667340821478</created>

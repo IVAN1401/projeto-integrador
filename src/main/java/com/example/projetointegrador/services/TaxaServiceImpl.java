@@ -22,9 +22,8 @@ public class TaxaServiceImpl implements TaxaService {
     }
 
     @Override
-    public Pessoa editar(Pessoa pessoa) {
-
-        return taxaRepository.save(pessoa);
+    public Taxa editar(Taxa taxa) {
+        return taxaRepository.save(taxa);
     }
 
     @Override
@@ -34,5 +33,5 @@ public class TaxaServiceImpl implements TaxaService {
 
     @Override
     public void deletar (Long id_taxa){
-        taxaRepository.deleteById(id_taxa);
+        taxaRepository.deleteById(id_taxa);}
     }

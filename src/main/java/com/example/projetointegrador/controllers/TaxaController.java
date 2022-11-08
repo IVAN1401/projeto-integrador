@@ -17,23 +17,30 @@ public class TaxaController {
 
     final TaxaServiceImpl taxaServiceImpl;
 
-    public CarteiraController(PessoaServiceImpl pessoaService) {
-        TaxaServiceImpl ;
-        this.taxaServiceImpl= TaxaServiceImpl;
+    public TaxaController(TaxaServiceImpl taxaService) {
+           this.taxaServiceImpl= taxaService;
     }
-    @PostMapping(value= "/salvarCarteira")
-    public ResponseEntity<Object> salvarPessoa(@RequestBody Pessoa pessoa) {
-        Pessoa response = TaxaServiceImpl.salvar();
+    @PostMapping(value= "/salvartaxa")
+    public ResponseEntity<Object> salvarTaxa(@RequestBody Taxa taxa) {
+        Taxa response = taxaServiceImpl.salvar(taxa);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
     @GetMapping(value = "/buscarTaxa")
-    public ResponseEntity<Object> buscarPessoa(@RequestBody Pessoa pessoa) {
-        List<Pessoa> response = TaxaServiceImpl.listar();
+    public ResponseEntity<Object> buscarTaxa() {
+        List<Taxa> response = taxaServiceImpl.listar();
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
     @PutMapping(value = "/alterarTaxa")
-    public ResponseEntity<Object> alterarPessoa (@RequestBody Pessoa pessoa){
-        Pessoa response = TaxaServiceImpl.editar(Pessoa);
+    public ResponseEntity<Object> alterarTaxa (@RequestBody Taxa taxa){
+        Taxa response = taxaServiceImpl.editar(taxa);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
+
+
+    }
+
+    @DeleteMapping (value="/deletarTaxa")
+    public ResponseEntity<Object> deletarTaxa(Long id_taxa) {
+        taxaServiceImpl.deletar(id_taxa);
+        return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 }
