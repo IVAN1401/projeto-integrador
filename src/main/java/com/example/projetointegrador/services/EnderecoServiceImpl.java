@@ -8,26 +8,34 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-public class EnderecoServiceImpl {
-    public static Endereco salvar() {
-    }
-
-    @Service
+      @Service
     public class EnderecoServiceImpl implements EnderecoService {
 
-        final EnderecoRepository enderecoRepository = null;
+          final EnderecoRepository enderecoRepository;
 
-        public EnderecoServiceImpl(EnderecoRepository EnderecoRepository) {
-            this.enderecoRepository = enderecoRepository;
-        }
+          public EnderecoServiceImpl(EnderecoRepository enderecoRepository) {
+              this.enderecoRepository = enderecoRepository;
+          }
 
-        @Override
-        public List<Endereco> listar() {
-            return EnderecoRepository.findAll();
-        }
+          @Override
+          public List<Endereco> listar() {
+              return enderecoRepository.findAll();
+          }
 
-        @Override
-        public Endereco editar(Endereco endereco) {
+          @Override
+          public Endereco editar(Endereco endereco) {
+              return enderecoRepository.save(endereco);
 
-            return enderecoRepository.save(endereco);
-        }
+          }
+
+          @Override
+          public Endereco salvar(Endereco endereco) {
+              return enderecoRepository.save(endereco);
+
+          }
+
+          @Override
+          public void deletar(Long id_endereco) {
+              enderecoRepository.deleteById(id_endereco);
+          }
+      }

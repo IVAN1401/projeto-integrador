@@ -25,7 +25,7 @@ public class PessoaController {
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
     @GetMapping(value = "/buscarPessoa")
-    public ResponseEntity<Object> buscarPessoa(@RequestBody Pessoa pessoa) {
+    public ResponseEntity<Object> buscarPessoa() {
        List<Pessoa>  response = pessoaServiceImp.listar();
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
