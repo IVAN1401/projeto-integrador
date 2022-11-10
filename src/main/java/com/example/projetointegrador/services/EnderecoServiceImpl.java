@@ -29,12 +29,16 @@ import java.util.List;
           }
 
           @Override
-          public Endereco salvar(Endereco endereco) {
+          public Endereco salvar(Endereco endereco) throws Exception  {
+              List<Endereco> listaDeEndereco = enderecoRepository.findAll();
+              for (Endereco endereco1: listaDeEndereco) {
+                  if (endereco.getNome().equals(endereco1.getNome())) {
+                      throw new Exception("Esse nome já esta cadastrado!");
+                  }
+              }
               return enderecoRepository.save(endereco);
-
           }
-
-          @Override
+           @Override
           public void deletar(Long id_endereco) {
               enderecoRepository.deleteById(id_endereco);
           }

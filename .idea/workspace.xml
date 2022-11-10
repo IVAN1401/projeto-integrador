@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="15da7517-2498-4884-8109-4c8612c0e661" name="Changes" comment="atualizaçaodepasta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/CarteiraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/CarteiraController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/controllers/PessoaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/CarteiraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/CarteiraService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/CarteiraServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/CarteiraServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/PessoaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/PessoaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/PessoaServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +131,8 @@
       <workItem from="1667516141493" duration="8348000" />
       <workItem from="1667600224311" duration="10025000" />
       <workItem from="1667944698657" duration="6376000" />
-      <workItem from="1667951117658" duration="3176000" />
+      <workItem from="1667951117658" duration="4094000" />
+      <workItem from="1668115903683" duration="2662000" />
     </task>
     <task id="LOCAL-00001" summary="projeto-integrador">
       <created>1667340821478</created>
@@ -184,5 +190,16 @@
     <MESSAGE value="projeto-integrador" />
     <MESSAGE value="atualizaçaodepasta" />
     <option name="LAST_COMMIT_MESSAGE" value="atualizaçaodepasta" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/CarteiraServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

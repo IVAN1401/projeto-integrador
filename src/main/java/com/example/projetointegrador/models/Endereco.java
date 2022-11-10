@@ -24,4 +24,5 @@ public class Endereco {
     private String numeroCasa;
     @Column(name = "referencia")
     private String referencia;
-}
+
+    }

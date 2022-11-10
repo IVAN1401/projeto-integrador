@@ -23,7 +23,7 @@ import java.util.List;
         }
 
         @PostMapping(value = "/salvarEndereco")
-        public ResponseEntity<Object> salvarEndereco(@RequestBody Endereco endereco) {
+        public ResponseEntity<Object> salvarEndereco(@RequestBody Endereco endereco) throws Exception {
             Endereco response = enderecoServiceImpl.salvar(endereco);
             return ResponseEntity.status(HttpStatus.CREATED).body(response);
         }

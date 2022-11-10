@@ -26,4 +26,7 @@ public class Documento {
     @Column(name = "identidade")
     private String identidade;
 
+    public Object getNome() {
+        return null;
+    }
 }

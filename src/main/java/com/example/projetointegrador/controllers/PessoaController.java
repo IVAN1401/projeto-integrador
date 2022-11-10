@@ -20,7 +20,7 @@ public class PessoaController {
         this.pessoaServiceImp = pessoaService;
     }
     @PostMapping(value= "/salvarPessoa")
-    public ResponseEntity<Object> salvarPessoa(@RequestBody Pessoa pessoa) {
+    public ResponseEntity<Object> salvarPessoa(@RequestBody Pessoa pessoa) throws Exception {
        Pessoa response = pessoaServiceImp.salvar(pessoa);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }

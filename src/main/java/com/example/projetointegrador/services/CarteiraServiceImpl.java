@@ -28,7 +28,13 @@ public class CarteiraServiceImpl implements CarteiraService{
     }
 
     @Override
-    public Carteira salvar(Carteira carteira) {
+    public Carteira salvar(Carteira carteira) throws Exception {
+        List<Carteira> listaDeCarteira = carteiraRepository.findAll();
+        for (Carteira carteira1: listaDeCarteira) {
+            if (carteira.getNome().equals(carteira1.getNome())) {
+                throw new Exception("Esse nome já esta cadastrado!");
+            }
+        }
         return carteiraRepository.save(carteira);
     }
 

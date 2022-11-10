@@ -1,5 +1,6 @@
 package com.example.projetointegrador.controllers;
 
+import antlr.ASTNULLType;
 import com.example.projetointegrador.models.Carteira;
 import com.example.projetointegrador.models.Pessoa;
 import com.example.projetointegrador.services.CarteiraServiceImpl;
@@ -22,7 +23,7 @@ public class CarteiraController {
 
 
     @PostMapping(value = "/salvarCarteira")
-    public ResponseEntity<Object> salvarPessoa(@RequestBody Carteira carteira) {
+    public ResponseEntity<Object> salvarCarteira(@RequestBody Carteira carteira) throws Exception {
         Carteira response = carteiraServiceImpl.salvar(carteira);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
@@ -44,4 +45,6 @@ public class CarteiraController {
         carteiraServiceImpl.deletar(id_carteira);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
+
 }
+
