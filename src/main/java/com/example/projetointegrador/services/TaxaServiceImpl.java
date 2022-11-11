@@ -31,7 +31,7 @@ public class TaxaServiceImpl implements TaxaService {
     List<Taxa> listaDeTaxa = taxaRepository.findAll();
     for (Taxa taxa1: listaDeTaxa) {
         if (taxa.getNome().equals(taxa1.getNome())) {
-            throw new Exception("Esse nome já esta cadastrado!");
+            throw new Exception("Esta Taxa já esta cadastrado!");
         }
     }
     return taxaRepository.save(taxa);

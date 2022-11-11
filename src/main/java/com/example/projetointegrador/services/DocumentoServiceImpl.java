@@ -30,9 +30,13 @@ import java.util.List;
         @Override
         public Documento salvar(Documento documento) throws Exception {
             List<Documento> listaDeDocumento = documentoRepository.findAll();
-            for (Documento documento1 : listaDeDocumento) {
-                if (documento.getNome().equals(documento1.getNome())) {
-                    throw new Exception("Esse nome já esta cadastrado!");
+            for (Documento cpf1 : listaDeDocumento) {
+                if (documento.getCpf().equals(cpf1.getCpf())) {
+                    throw new Exception("Esse CPF já esta cadastrado!");
+                }for (Documento identidade : listaDeDocumento) {
+                    if (documento.getIdentidade().equals(identidade.getIdentidade())) {
+                        throw new Exception("Identidade já esta cadastrado!");
+                    }
                 }
             }
             return documentoRepository.save(documento);

@@ -22,4 +22,5 @@ public class PessoaDTO {
     private String estadoCivil;
     private String dependentes;
     private Carteira carteira;
+    private String cpf;
 }

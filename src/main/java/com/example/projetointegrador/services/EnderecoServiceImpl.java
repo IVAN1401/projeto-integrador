@@ -32,8 +32,8 @@ import java.util.List;
           public Endereco salvar(Endereco endereco) throws Exception  {
               List<Endereco> listaDeEndereco = enderecoRepository.findAll();
               for (Endereco endereco1: listaDeEndereco) {
-                  if (endereco.getNome().equals(endereco1.getNome())) {
-                      throw new Exception("Esse nome já esta cadastrado!");
+                  if (endereco.getCep().equals(endereco1.getCep())) {
+                      throw new Exception("Esse endereco já esta cadastrado!");
                   }
               }
               return enderecoRepository.save(endereco);
