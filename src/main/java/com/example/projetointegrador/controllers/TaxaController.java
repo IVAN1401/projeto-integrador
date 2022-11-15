@@ -21,7 +21,7 @@ public class TaxaController {
            this.taxaServiceImpl= taxaService;
     }
     @PostMapping(value= "/salvartaxa")
-    public ResponseEntity<Object> salvarTaxa(@RequestBody Taxa taxa) {
+    public ResponseEntity<Object> salvarTaxa(@RequestBody Taxa taxa) throws Exception {
         Taxa response = taxaServiceImpl.salvar(taxa);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }

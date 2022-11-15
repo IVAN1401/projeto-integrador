@@ -31,6 +31,8 @@ public class Pessoa {
     private String estadoCivil;
     @Column(name = "dependentes")
     private String dependentes;
+    @Column(name = "cpf")
+    private String cpf;
 
     @ManyToOne(cascade = {CascadeType.MERGE,CascadeType.DETACH,CascadeType.REFRESH,CascadeType.PERSIST}, fetch = FetchType.LAZY)
     @JoinTable(name = "documento_pessoa",

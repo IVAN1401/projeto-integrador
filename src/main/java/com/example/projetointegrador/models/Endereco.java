@@ -17,11 +17,13 @@ public class Endereco {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_endereco")
-    private Long id;
+    private Long id_endereco;
     @Column(name = "logradouro")
     private String logradouro;
     @Column(name = "numeroCasa")
     private String numeroCasa;
     @Column(name = "referencia")
     private String referencia;
-}
+    @Column(name ="cep" )
+    private String cep;
+    }

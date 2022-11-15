@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="15da7517-2498-4884-8109-4c8612c0e661" name="Changes" comment="atualizaçaodepasta&#10;&#10;git pull">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/PessoaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projetointegrador/services/PessoaServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,32 +53,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "show.run.dashboard.notification": "false",
-    "spring.configuration.checksum": "8ab36308d54637628f2354cdde054898"
-  }
-}]]></component>
-  <component name="RunManager" selected="Spring Boot.ProjetoIntegradorApplication (1)">
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProjetoIntegradorApplication (2)">
     <configuration name="ProjetoIntegradorApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
       <module name="projeto-integrador" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.projetointegrador.ProjetoIntegradorApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.projetointegrador.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.projetointegrador.ProjetoIntegradorApplication" />
+      <option name="ACTIVE_PROFILES" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,16 +116,17 @@
       <workItem from="1667343084022" duration="354000" />
       <workItem from="1667343447536" duration="7807000" />
       <workItem from="1667516141493" duration="8348000" />
-      <workItem from="1667600224311" duration="7754000" />
-      <workItem from="1668036532488" duration="2415000" />
-      <workItem from="1668475735459" duration="77000" />
+      <workItem from="1667600224311" duration="10025000" />
+      <workItem from="1667944698657" duration="6376000" />
+      <workItem from="1667951117658" duration="4094000" />
+      <workItem from="1668115903683" duration="11974000" />
     </task>
-    <task id="LOCAL-00001" summary="atualizaçaodepasta&#10;&#10;git pull">
-      <created>1668037593143</created>
+    <task id="LOCAL-00001" summary="projeto-integrador">
+      <created>1667340821478</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1668037593143</updated>
+      <updated>1667340821478</updated>
     </task>
     <task id="LOCAL-00002" summary="projeto-integrador">
       <created>1667341191381</created>
@@ -149,7 +142,6 @@
       <option name="project" value="LOCAL" />
       <updated>1667341775450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,8 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="projeto-integrador" />
     <MESSAGE value="atualizaçaodepasta" />
-    <MESSAGE value="atualizaçaodepasta&#10;&#10;git pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualizaçaodepasta&#10;&#10;git pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualizaçaodepasta" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
