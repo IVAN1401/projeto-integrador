@@ -59,6 +59,10 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "show.run.dashboard.notification": "false",
     "spring.configuration.checksum": "8ab36308d54637628f2354cdde054898"
   }
@@ -121,14 +125,15 @@
       <workItem from="1667343447536" duration="7807000" />
       <workItem from="1667516141493" duration="8348000" />
       <workItem from="1667600224311" duration="7754000" />
-      <workItem from="1668036532488" duration="742000" />
+      <workItem from="1668036532488" duration="2415000" />
+      <workItem from="1668475735459" duration="77000" />
     </task>
-    <task id="LOCAL-00001" summary="projeto-integrador">
-      <created>1667340821478</created>
+    <task id="LOCAL-00001" summary="atualizaçaodepasta&#10;&#10;git pull">
+      <created>1668037593143</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1667340821478</updated>
+      <updated>1668037593143</updated>
     </task>
     <task id="LOCAL-00002" summary="projeto-integrador">
       <created>1667341191381</created>
@@ -144,6 +149,7 @@
       <option name="project" value="LOCAL" />
       <updated>1667341775450</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +169,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="projeto-integrador" />
     <MESSAGE value="atualizaçaodepasta" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualizaçaodepasta" />
+    <MESSAGE value="atualizaçaodepasta&#10;&#10;git pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualizaçaodepasta&#10;&#10;git pull" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
